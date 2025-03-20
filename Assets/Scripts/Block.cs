@@ -22,7 +22,7 @@ public class Block : MonoBehaviour, IPointerDownHandler
             BattleManager.Instance.AttackCofirm(transform.gameObject);
             //hasMonster = true;
         }
-        //Debug.Log("click block");
+        Debug.Log("click block");
     }
     // Start is called before the first frame update
     void Start()
